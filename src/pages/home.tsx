@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section class="bg-slate-200 text-slate-700 p-8 rounded-md">
       <h2 class="text-2xl">Home</h2>
-      <p class="mt-4">This is the home page.</p>
+      <p class="mt-4">How do you survive?</p>
 
       <div class="flex items-center space-x-2 mt-4">
         <button
