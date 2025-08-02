@@ -13,7 +13,7 @@ export default function About() {
       <h2 class="text-2xl">About</h2>
 
       <p class="mt-4">
-        A page all about this website. <span>We love</span>
+        A page with nothing about this website. <span>We love</span>
         <Suspense fallback={<span>...</span>}>
           <span>&nbsp;{name()}!</span>
         </Suspense>
