@@ -13,17 +13,17 @@ export default function About() {
       <h2 class="text-2xl">About</h2>
 
       <p class="mt-4">
-        A page with nothing about this website. <span>We love</span>
+        My name is Akavone, and I code Roblox games as well as HTML. Contact vcoffice.praetoraka@gmail.com for business enquiries.
         <Suspense fallback={<span>...</span>}>
           <span>&nbsp;{name()}!</span>
         </Suspense>
       </p>
       <p>
         Visit{" "}
-        <a href="https://solidjs.com" target="_blank" class="underline">
-          solidjs.com
+        <a href="https://akaone.netlify.app/about" target="_blank" class="underline">
+      
         </a>
-        {" "}to learn how to build Solid apps.
+        {" "}for more information.
       </p>
     </section>
   );
